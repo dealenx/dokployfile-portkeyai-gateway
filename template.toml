@@ -6,6 +6,6 @@ env = []
 mounts = []
 
 [[config.domains]]
-serviceName = "databasus"
-port = 4005
+serviceName = "portkey-ai-gateway"
+port = 8787
 host = "${main_domain}"

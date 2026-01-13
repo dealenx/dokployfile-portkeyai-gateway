@@ -1,14 +1,13 @@
 version: "1"
 meta:
-  slug: "databasus"
-  name: "Databasus"
-  version: "1.0.0"
-  description: "PostgreSQL backup tool with MySQL and MongoDB support"
-  logo: "postgresus.svg"
-  tags: ["PostgreSQL", "backup", "tool", "MySQL"]
+  slug: "portkey-ai-gateway"
+  name: "Portkey AI Gateway"
+  version: "1.15.2"
+  description: "A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API."
+  tags: ["AI", "Gateway", "LLM", "Guardrails"]
   links:
-    website: "https://databasus.com"
-    github: "https://github.com/databasus/databasus"
+    website: "https://portkey.ai"
+    github: "https://github.com/Portkey-AI/gateway"
 template:
   compose: "docker-compose.yml"
   config: "template.toml"
